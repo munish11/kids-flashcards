@@ -402,11 +402,7 @@ export const flashcards: Flashcard[] = [
   { id: "toy-frisbee", name: "Frisbee", imageSrc: "/images/toys/frisbee.jpg", category: "Toys" },
   { id: "toy-rubberduck", name: "Rubber Duck", imageSrc: "/images/toys/rubberduck.jpg", category: "Toys" },
 
-  // ── Family (4) ──
-  { id: "family-mommy", name: "Mommy", imageSrc: "/images/family/mommy.jpg", category: "Family" },
-  { id: "family-papa", name: "Papa", imageSrc: "/images/family/papa.jpg", category: "Family" },
-  { id: "family-didi", name: "Didi", imageSrc: "/images/family/didi.jpg", category: "Family" },
-  { id: "family-krishiv", name: "Krishiv", imageSrc: "/images/family/krishiv.jpg", category: "Family" },
+
 ];
 
 export function getAllFlashcards(): Flashcard[] {

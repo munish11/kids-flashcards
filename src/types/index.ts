@@ -14,7 +14,6 @@ export type Category =
   | "Food"
   | "Weather"
   | "Musical Instruments"
-  | "Family"
   | "Dinosaurs"
   | "Space"
   | "Sports"
