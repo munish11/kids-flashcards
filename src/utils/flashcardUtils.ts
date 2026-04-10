@@ -3,7 +3,7 @@ import type { Flashcard, Category } from "../types";
 const VALID_CATEGORIES: Category[] = [
   "Fruits", "Vegetables", "Animals", "Colors", "Shapes", "Vehicles",
   "Body Parts", "Numbers", "Letters", "Insects", "Ocean Life", "Birds",
-  "Food", "Weather", "Musical Instruments",
+  "Food", "Weather", "Musical Instruments", "Family",
   "Dinosaurs", "Space", "Sports", "Cars", "Household Items", "Emotions", "Toys",
 ];
 

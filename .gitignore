@@ -25,6 +25,3 @@ dist-ssr
 
 # Environment variables
 .env
-
-# Personal family photos - keep local only
-public/images/family/
