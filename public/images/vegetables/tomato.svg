@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Tomato body -->
+  <ellipse cx="100" cy="115" rx="65" ry="55" fill="#E74C3C"/>
+  <!-- Slight indent at top -->
+  <ellipse cx="100" cy="65" rx="15" ry="5" fill="#C0392B"/>
+  <!-- Leaves/calyx -->
+  <path d="M 100 65 L 70 50 L 85 65 Z" fill="#27AE60"/>
+  <path d="M 100 65 L 130 50 L 115 65 Z" fill="#27AE60"/>
+  <path d="M 100 65 L 100 40 L 105 65 Z" fill="#2ECC71"/>
+  <path d="M 100 65 L 80 42 L 92 65 Z" fill="#2ECC71"/>
+  <path d="M 100 65 L 120 42 L 108 65 Z" fill="#2ECC71"/>
+  <!-- Shine -->
+  <ellipse cx="82" cy="100" rx="12" ry="18" fill="white" opacity="0.15"/>
+</svg>

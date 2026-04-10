@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Strawberry body -->
+  <path d="M 100 45 Q 45 90, 55 140 Q 65 175, 100 185 Q 135 175, 145 140 Q 155 90, 100 45 Z" fill="#E74C3C"/>
+  <!-- Seeds -->
+  <ellipse cx="85" cy="100" rx="3" ry="4" fill="#F1C40F"/>
+  <ellipse cx="115" cy="100" rx="3" ry="4" fill="#F1C40F"/>
+  <ellipse cx="100" cy="120" rx="3" ry="4" fill="#F1C40F"/>
+  <ellipse cx="85" cy="140" rx="3" ry="4" fill="#F1C40F"/>
+  <ellipse cx="115" cy="140" rx="3" ry="4" fill="#F1C40F"/>
+  <ellipse cx="100" cy="155" rx="3" ry="4" fill="#F1C40F"/>
+  <!-- Leaves -->
+  <ellipse cx="80" cy="50" rx="20" ry="8" fill="#27AE60" transform="rotate(-15 80 50)"/>
+  <ellipse cx="120" cy="50" rx="20" ry="8" fill="#27AE60" transform="rotate(15 120 50)"/>
+  <ellipse cx="100" cy="42" rx="15" ry="8" fill="#2ECC71"/>
+</svg>

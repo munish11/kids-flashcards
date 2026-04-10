@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Banana body -->
+  <path d="M 50 140 Q 60 60, 130 50 Q 160 45, 170 60 Q 165 55, 140 60 Q 70 75, 55 150 Z" fill="#F1C40F"/>
+  <!-- Banana darker edge -->
+  <path d="M 50 140 Q 55 130, 55 150 Q 52 155, 48 145 Z" fill="#D4AC0D"/>
+  <!-- Banana tip -->
+  <circle cx="170" cy="58" r="5" fill="#8B6914"/>
+  <!-- Banana stripe -->
+  <path d="M 60 130 Q 70 70, 135 55" stroke="#F39C12" stroke-width="3" fill="none"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Apple body -->
+  <ellipse cx="100" cy="120" rx="65" ry="60" fill="#E74C3C"/>
+  <ellipse cx="75" cy="110" rx="30" ry="45" fill="#C0392B" opacity="0.3"/>
+  <!-- Stem -->
+  <rect x="96" y="55" width="8" height="25" rx="3" fill="#6D4C41"/>
+  <!-- Leaf -->
+  <ellipse cx="115" cy="62" rx="18" ry="8" fill="#27AE60" transform="rotate(-20 115 62)"/>
+  <!-- Shine -->
+  <ellipse cx="78" cy="100" rx="12" ry="18" fill="white" opacity="0.2"/>
+</svg>

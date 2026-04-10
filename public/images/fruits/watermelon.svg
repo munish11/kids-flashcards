@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Watermelon slice (half circle) -->
+  <!-- Rind -->
+  <path d="M 30 130 A 80 80 0 0 1 170 130 Z" fill="#27AE60"/>
+  <!-- Inner rind -->
+  <path d="M 38 130 A 72 72 0 0 1 162 130 Z" fill="#A8E6A0"/>
+  <!-- Red flesh -->
+  <path d="M 45 130 A 65 65 0 0 1 155 130 Z" fill="#E74C3C"/>
+  <!-- Seeds -->
+  <ellipse cx="80" cy="115" rx="4" ry="6" fill="#2C3E50" transform="rotate(-15 80 115)"/>
+  <ellipse cx="100" cy="105" rx="4" ry="6" fill="#2C3E50"/>
+  <ellipse cx="120" cy="115" rx="4" ry="6" fill="#2C3E50" transform="rotate(15 120 115)"/>
+  <ellipse cx="90" cy="125" rx="3" ry="5" fill="#2C3E50" transform="rotate(-10 90 125)"/>
+  <ellipse cx="110" cy="125" rx="3" ry="5" fill="#2C3E50" transform="rotate(10 110 125)"/>
+</svg>

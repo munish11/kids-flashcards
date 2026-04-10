@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Stem -->
+  <line x1="100" y1="30" x2="100" y2="60" stroke="#6D4C41" stroke-width="4" stroke-linecap="round"/>
+  <!-- Leaf -->
+  <ellipse cx="115" cy="38" rx="18" ry="10" fill="#27AE60" transform="rotate(-10 115 38)"/>
+  <!-- Grape cluster -->
+  <circle cx="85" cy="75" r="18" fill="#8E44AD"/>
+  <circle cx="115" cy="75" r="18" fill="#8E44AD"/>
+  <circle cx="100" cy="70" r="18" fill="#9B59B6"/>
+  <circle cx="75" cy="100" r="18" fill="#8E44AD"/>
+  <circle cx="100" cy="100" r="18" fill="#9B59B6"/>
+  <circle cx="125" cy="100" r="18" fill="#8E44AD"/>
+  <circle cx="85" cy="125" r="18" fill="#9B59B6"/>
+  <circle cx="115" cy="125" r="18" fill="#8E44AD"/>
+  <circle cx="100" cy="145" r="18" fill="#9B59B6"/>
+  <!-- Shine on grapes -->
+  <circle cx="93" cy="65" r="5" fill="white" opacity="0.2"/>
+  <circle cx="93" cy="95" r="5" fill="white" opacity="0.2"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Tail -->
+  <polygon points="35,100 15,70 15,130" fill="#F39C12"/>
+  <!-- Body -->
+  <ellipse cx="105" cy="100" rx="65" ry="40" fill="#3498DB"/>
+  <!-- Belly -->
+  <ellipse cx="110" cy="112" rx="45" ry="20" fill="#5DADE2"/>
+  <!-- Eye -->
+  <circle cx="140" cy="90" r="10" fill="white"/>
+  <circle cx="142" cy="90" r="6" fill="#2C3E50"/>
+  <circle cx="144" cy="88" r="2" fill="white"/>
+  <!-- Mouth -->
+  <path d="M 165 100 Q 160 105, 165 110" stroke="#2C3E50" stroke-width="2" fill="none"/>
+  <!-- Dorsal fin -->
+  <path d="M 90 62 Q 105 35, 120 62" fill="#2980B9"/>
+  <!-- Pectoral fin -->
+  <path d="M 100 110 Q 85 130, 105 125" fill="#2980B9"/>
+  <!-- Scales pattern -->
+  <path d="M 80 90 Q 85 85, 90 90" stroke="#2980B9" stroke-width="1.5" fill="none"/>
+  <path d="M 95 85 Q 100 80, 105 85" stroke="#2980B9" stroke-width="1.5" fill="none"/>
+  <path d="M 110 90 Q 115 85, 120 90" stroke="#2980B9" stroke-width="1.5" fill="none"/>
+  <!-- Bubbles -->
+  <circle cx="175" cy="80" r="4" fill="none" stroke="#AED6F1" stroke-width="1.5"/>
+  <circle cx="182" cy="70" r="3" fill="none" stroke="#AED6F1" stroke-width="1.5"/>
+</svg>

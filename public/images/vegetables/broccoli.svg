@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Stem -->
+  <rect x="88" y="120" width="24" height="55" rx="8" fill="#6D9B3A"/>
+  <!-- Florets -->
+  <circle cx="75" cy="100" r="28" fill="#27AE60"/>
+  <circle cx="100" cy="85" r="30" fill="#2ECC71"/>
+  <circle cx="125" cy="100" r="28" fill="#27AE60"/>
+  <circle cx="88" cy="90" r="22" fill="#2ECC71"/>
+  <circle cx="112" cy="90" r="22" fill="#2ECC71"/>
+  <!-- Texture bumps -->
+  <circle cx="80" cy="92" r="8" fill="#27AE60"/>
+  <circle cx="100" cy="78" r="8" fill="#1E8449"/>
+  <circle cx="120" cy="92" r="8" fill="#27AE60"/>
+</svg>

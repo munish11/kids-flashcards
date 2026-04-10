@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Pepper body -->
+  <path d="M 70 70 Q 50 100, 55 140 Q 60 175, 85 180 Q 95 170, 90 140 Q 100 170, 115 180 Q 140 175, 145 140 Q 150 100, 130 70 Q 100 55, 70 70 Z" fill="#E74C3C"/>
+  <!-- Stem -->
+  <rect x="93" y="45" width="14" height="28" rx="4" fill="#27AE60"/>
+  <!-- Shine -->
+  <ellipse cx="82" cy="100" rx="10" ry="25" fill="white" opacity="0.12"/>
+  <!-- Pepper crease -->
+  <path d="M 100 75 Q 98 120, 100 170" stroke="#C0392B" stroke-width="2" fill="none"/>
+</svg>

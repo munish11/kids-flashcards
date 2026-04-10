@@ -1,0 +1,81 @@
+:root {
+  font-family: 'Segoe UI', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #333;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e8f5e9 0%, #e3f2fd 50%, #fff3e0 100%);
+  background-attachment: fixed;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Small screens (phones, 320px–480px) */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Medium screens (tablets, 481px–768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Large screens (desktops, 769px+) */
+@media (min-width: 769px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* App container responsive adjustments */
+.app-container {
+  transition: padding 0.2s ease;
+}
+
+@media (max-width: 480px) {
+  .app-container {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    padding-top: 8px !important;
+  }
+}
+
+/* Ensure images scale well on all screens */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Smooth transitions for interactive elements */
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Safe area insets for notched devices */
+@supports (padding: env(safe-area-inset-bottom)) {
+  .app-container {
+    padding-bottom: env(safe-area-inset-bottom, 12px);
+  }
+}
