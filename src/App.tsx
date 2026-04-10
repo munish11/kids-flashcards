@@ -6,6 +6,8 @@ import { useKeyboardNav } from './hooks/useKeyboardNav';
 import { CategorySelector } from './components/CategorySelector';
 import { FlashcardViewer } from './components/FlashcardViewer';
 import { PlayPauseControl } from './components/PlayPauseControl';
+import { QuizToggleButton } from './components/QuizToggleButton';
+import { QuizView } from './components/QuizView';
 import type { Category } from './types';
 
 const allFlashcards = getAllFlashcards();
@@ -16,6 +18,7 @@ function App() {
   const [selectedCategory, setSelectedCategory] = useState<Category | 'All'>('All');
   const [isPlaying, setIsPlaying] = useState(true);
   const [scrollKey, setScrollKey] = useState(0);
+  const [isQuizMode, setIsQuizMode] = useState(false);
 
   const filteredFlashcards = useMemo(
     () => shuffleFlashcards(filterByCategory(allFlashcards, selectedCategory)),
@@ -54,9 +57,17 @@ function App() {
     setIsPlaying((p) => !p);
   }, []);
 
+  const handleToggleQuiz = useCallback(() => {
+    setIsQuizMode((prev) => !prev);
+  }, []);
+
   // Auto-scroll: scrollKey changes force the interval to restart
-  useAutoScroll(isPlaying, handleNext, 5000, scrollKey);
-  useKeyboardNav(handleManualNext, handleManualPrev);
+  // Disable auto-scroll when quiz mode is active
+  useAutoScroll(isPlaying && !isQuizMode, handleNext, 5000, scrollKey);
+  useKeyboardNav(
+    isQuizMode ? () => {} : handleManualNext,
+    isQuizMode ? () => {} : handleManualPrev
+  );
 
   return (
     <div className="app-container" style={styles.app}>
@@ -69,17 +80,27 @@ function App() {
       </header>
 
       <main style={styles.main}>
-        <FlashcardViewer
-          flashcards={filteredFlashcards}
-          currentIndex={currentIndex}
-          onSwipeLeft={handleManualNext}
-          onSwipeRight={handleManualPrev}
-          onTap={handleTogglePlay}
-        />
+        {isQuizMode ? (
+          <QuizView
+            filteredFlashcards={filteredFlashcards}
+            allFlashcards={allFlashcards}
+          />
+        ) : (
+          <FlashcardViewer
+            flashcards={filteredFlashcards}
+            currentIndex={currentIndex}
+            onSwipeLeft={handleManualNext}
+            onSwipeRight={handleManualPrev}
+            onTap={handleTogglePlay}
+          />
+        )}
       </main>
 
       <footer style={styles.footer}>
-        <PlayPauseControl isPlaying={isPlaying} onToggle={handleTogglePlay} />
+        {!isQuizMode && (
+          <PlayPauseControl isPlaying={isPlaying} onToggle={handleTogglePlay} />
+        )}
+        <QuizToggleButton isQuizMode={isQuizMode} onToggle={handleToggleQuiz} />
       </footer>
     </div>
   );
@@ -110,6 +131,7 @@ const styles: Record<string, React.CSSProperties> = {
     flexShrink: 0,
     display: 'flex',
     justifyContent: 'center',
+    gap: 16,
     paddingTop: 12,
     paddingBottom: 12,
   },
