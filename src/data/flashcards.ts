@@ -404,9 +404,26 @@ export const flashcards: Flashcard[] = [
 
   // ── Family (4) ──
   { id: "family-mommy", name: "Mommy", imageSrc: "/images/family/mommy.jpg", category: "Family" },
+  { id: "family-mommy-2", name: "Mommy", imageSrc: "/images/family/momy2.jpeg", category: "Family" },
   { id: "family-papa", name: "Papa", imageSrc: "/images/family/papa.jpg", category: "Family" },
   { id: "family-didi", name: "Didi", imageSrc: "/images/family/didi.jpg", category: "Family" },
+  { id: "family-didi-2", name: "Didi", imageSrc: "/images/family/didi2.jpeg", category: "Family" },
   { id: "family-krishiv", name: "Krishiv", imageSrc: "/images/family/krishiv.jpg", category: "Family" },
+  { id: "family-krishiv-2", name: "Krishiv", imageSrc: "/images/family/krishiv2.jpeg", category: "Family" },
+  { id: "family-dadi", name: "Dadi", imageSrc: "/images/family/dadi.jpeg", category: "Family" },
+  { id: "family-dadu", name: "Dadu", imageSrc: "/images/family/dadu.jpeg", category: "Family" },
+  { id: "family-nani", name: "Nani", imageSrc: "/images/family/nani.jpeg", category: "Family" },
+  { id: "family-nanu", name: "Nanu", imageSrc: "/images/family/nanu.jpeg", category: "Family" },
+  { id: "family-bhua", name: "Bhua", imageSrc: "/images/family/bhua.jpeg", category: "Family" },
+  { id: "family-bhua-2", name: "Bhua", imageSrc: "/images/family/bhua2.jpeg", category: "Family" },
+  { id: "family-fufu", name: "Fufu", imageSrc: "/images/family/fufu.jpeg", category: "Family" },
+  { id: "family-mami", name: "Mami", imageSrc: "/images/family/mami.jpeg", category: "Family" },
+  { id: "family-mamu", name: "Mamu", imageSrc: "/images/family/mamu.jpeg", category: "Family" },
+  { id: "family-savy", name: "Savy", imageSrc: "/images/family/savy.jpeg", category: "Family" },
+  { id: "family-all", name: "Family", imageSrc: "/images/family/family.jpeg", category: "Family" },
+  { id: "family-all-2", name: "Family", imageSrc: "/images/family/family2.jpeg", category: "Family" },
+  { id: "family-all-3", name: "Family", imageSrc: "/images/family/family3.jpg", category: "Family" },
+  { id: "family-all-4", name: "Family", imageSrc: "/images/family/family4.jpg", category: "Family" },
 
 ];
 
